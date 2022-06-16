@@ -1,0 +1,42 @@
+package JavaSessions;
+
+public class StringConcet {
+
+	public static void main(String[] args) {
+		
+		int a = 100;
+		int b = 200;
+		
+		double c = 12.33;
+		double d = 13.33;
+		
+		String x = "Hello";
+		String y = "World";
+		
+		System.out.println(a+b);
+		System.out.println(c+d);
+		System.out.println(a+b+c+d);
+		
+		System.out.println(a+b+x);
+		System.out.println(a+b+x+y);
+		
+		System.out.println(x+y);
+		System.out.println(x+" "+y);
+		
+		System.out.println(x+y+a+b);
+		System.out.println(x+y+(a+b));
+		
+		System.out.println(x+y+a+b+c+d);
+		System.out.println(x+a+b+y);
+		
+		System.out.println("the value of a is :" +a);
+		System.out.println("the value of a is :" +b);
+		
+	    System.out.println("the sum of a and b is : "+ a+b);
+	    System.out.println("the sum of a and b is : "+ (a+b));
+		
+		
+		
+	}
+
+}
