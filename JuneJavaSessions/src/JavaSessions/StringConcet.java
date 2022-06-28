@@ -17,6 +17,7 @@ public class StringConcet {
 		System.out.println(c+d);
 		System.out.println(a+b+c+d);
 		
+		
 		System.out.println(a+b+x);
 		System.out.println(a+b+x+y);
 		
@@ -35,6 +36,12 @@ public class StringConcet {
 	    System.out.println("the sum of a and b is : "+ a+b);
 	    System.out.println("the sum of a and b is : "+ (a+b));
 		
+		char p = 'a';
+		char q = 'b';
+		System.out.println(p+q);
+		//a-z : 97 to 122
+		//A-Z : 65 to 90
+		//0-9 : 48 to 57
 		
 		
 	}
